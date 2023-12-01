@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selection Sorting Cards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="cardsRequest">
+        <label for="field">Número de cartas:</label>
+        <br>
+        <input type="text" id="field" name="field">
+        <br>
+        <button type="button" onclick="generateCardsUI()">Generar</button>
+        <button type="button" onclick="sortCards()">Ordenar</button>
+    </div>
+
+    <div id="generatedCards" class="generatedCards"></div>
+    <div id="sortedCards" class="sortedCards"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

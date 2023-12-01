@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  height: 100vh;
+  overflow: auto;
+}
+
+.cardsRequest {
+  padding: 10px;
+}
+
+.generatedCards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: 100%px;
+  padding: 10px;
+}
+
+.sortedCards {
+  gap: 20px;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.cardUnit {
+  background-color: white;
+  width: 70px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.cardUnitSymbol1 {
+  align-self: flex-start;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.cardUnitSymbol2 {
+  align-self: flex-end;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.cardUnitNumber {
+  align-self: center;
+  font-size: 40px;
+}
+
+.cardUnitSymbol1, .cardUnitSymbol2, .cardUnitNumber {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.step {
+  display: flex;
+  gap: 20px;
+  flex: 0 1;
+}
